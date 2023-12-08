@@ -386,3 +386,47 @@ a.link {
   top: 50%;
   position: absolute;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  body {
+      font-size: 1em; 
+  }
+
+  .nameContainer {
+      font-size: 1em; 
+  }
+
+  .animationContainer {
+      font-size: 1em; 
+  }
+
+  .image1 {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .aboutContainer .underneathContainer .textContainer .paragraphContainer {
+      max-width: 100%;
+  }
+
+  .iconContainer > div > div > div > div > img {
+      max-width: 1em;
+  }
+
+  .projectTitleContainer {
+      font-size: 1em;
+  }
+
+  .projectParagraph {
+      font-size: 1em;
+      max-width: 100%;
+  }
+
+  .buttons {
+      width: 1em;
+      font-size: 1em;
+      margin: 1em;
+  }
+}
