@@ -1,0 +1,388 @@
+#root {
+  max-width: 1820px;
+  margin: 0 auto;
+}
+
+.firstViewContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nameContainer {
+  font-size: 3em;
+  color: #034566;
+  font-family: Impact, Haettenschweiler, sans-serif;
+}
+
+.animationContainer {
+  font-size: 2.5em;
+  color: #034566;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  padding: 0.6em;
+}
+
+.animation {
+  font-size: 1em;
+  color: #219EBC;
+  font-family: Impact, Haettenschweiler, sans-serif;
+}
+
+.animation:after {
+  content:"";
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  0% {content:"|";}
+  2% {content:"s|";}
+  4% {content: "st|";}
+  6% {content: "stu|";}
+  8% {content: "stud|";}
+  10% {content: "stude|";}
+  12% {content: "studen|";}
+  14% {content: "student|";}
+  16% {content: "student.|";}
+  18% {content: "student|";}
+  20% {content: "studen|";}
+  22% {content: "stude|";}
+  24% {content: "stud|";}
+  26% {content: "stu|";}
+  28% {content: "st|";}
+  30% {content: "s|";}
+  32% {content: "|";}
+  34% {content: "|";}
+  36% {content: "c|";}
+  38% {content: "co|";}
+  40% {content: "cod|";}
+  42% {content: "code|";}
+  44% {content: "coder|";}
+  46% {content: "coder.|";}
+  48% {content: "coder|";}
+  50% {content: "code|";}
+  52% {content: "cod|";}
+  54% {content: "co|";}
+  56% {content: "c|";}
+  58% {content: "|";}
+  60% {content: "|";}
+  62% {content: "d|";}
+  64% {content: "de|";}
+  66% {content: "des|";}
+  68% {content: "desi|";}
+  70% {content: "desig|";}
+  72% {content: "design|";}
+  74% {content: "designe|";}
+  76% {content: "designer|";}
+  78% {content: "designer.|";}
+  80% {content: "designer|";}
+  82% {content: "designe|";}
+  84% {content: "design|";}
+  86% {content: "desig|";}
+  88% {content: "desi|";}
+  90% {content: "des|";}
+  92% {content: "de|";}
+  94% {content: "d|";}
+  96% {content: "|";}
+  98% {content: "|";}
+  100% {content: "|";}
+}
+
+/*about*/
+
+.aboutContainer {
+  height: 70vh;
+}
+
+.underneathContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.image1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  max-width: 19em;
+  margin-top: 4em;
+}
+
+.underneathContainer .textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutContainer .titleContainer {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color: #034566;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  position: relative;
+}
+
+.aboutContainer .titleContainer:before {
+  content: "";
+  display: block;
+  width: 20em;
+  height: 0.1em;
+  background: #191970;
+  left: 5em;
+  top: 50%;
+  position: absolute;
+}
+
+.aboutContainer .titleContainer:after {
+  content: "";
+  display: block;
+  width: 20em;
+  height: 0.1em;
+  background: #191970;
+  right: 5em;
+  top: 50%;
+  position: absolute;
+}
+
+.underneathContainer .textContainer .paragraphContainer {
+  font-size: 1.25em;
+  color: #034566;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  width: 100%; 
+  max-width: 31em;
+  word-wrap: break-word;
+}
+
+/*skills*/
+
+.skillsContainer {
+  height: 70vh;
+}
+
+.skillsContainer .titleContainer {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #034566;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  position: relative;
+}
+
+.iconContainer {
+  margin-top: 4em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.frontEndContainer, .otherCodingContainer, .miscContainer {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #034566;
+  background-color: #f2fbff;
+  width: auto;
+  height: 22em;
+  border-radius: 0.6em;
+  padding: 0.6em;
+}
+
+.iconContainer > div > div > div { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconContainer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconContainer .titleContainer2 {
+  color: #034566;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  padding: 0.3em;
+}
+
+.iconContainer > div > div > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6em;
+}
+
+.iconContainer > div > div > div > div > img {
+  height: auto;
+  width: 100%;
+  max-width: 3em;
+  padding: 0.6em;
+}
+
+.skillsContainer .titleContainer:before {
+  content: "";
+  display: block;
+  width: 21em;
+  height: 0.1em;
+  background: #191970;
+  left: 5em;
+  top: 50%;
+  position: absolute;
+}
+
+.skillsContainer .titleContainer:after {
+  content: "";
+  display: block;
+  width: 21em;
+  height: 0.1em;
+  background: #191970;
+  right: 5em;
+  top: 50%;
+  position: absolute;
+}
+
+/*/////////////////////////featured projects part/////////////////////////*/
+
+.featuredProjectsContainer {
+  height: 170vh;
+}
+
+.featuredProjectsContainer .titleContainer {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #034566;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  position: relative;
+}
+
+.projectsContainer {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectUnderneathContainer {
+  border: solid 1px #034566;
+  background-color: #f2fbff;
+  border-radius: 0.6em;
+  padding: 0.6em;
+  margin: 0.6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  gap: 1.2em;
+}
+
+.projectButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 2em;
+  width: 65%;
+}
+
+.projectButtonContainer > div {
+  padding: 0.3em;
+}
+
+.buttons {
+  margin: 0.2em;
+  color: white;
+  background-color: #219EBC;
+  border-radius: 1.5em;
+  width: 11em;
+  height: 3em;
+  border: 1px solid #219EBC;
+  font-size: 1.25em;
+  opacity: 0.7;
+}
+
+.projectParagraph {
+  font-size: 1.25em;
+  color: #034566;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  width: 100%; 
+  max-width: 44em;
+  word-wrap: break-word;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.projectTitleContainer {
+  font-size: 1.5em;
+  color: #034566;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  margin-bottom: 0.5em;
+}
+
+.projectImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.projectImage {
+  height: auto;
+  width: 100%;
+  max-width: 25em;
+  padding: 1.5em;
+}
+
+.projectImagePhone {
+  height: 100%;
+  width: auto;
+  max-height: 22em;
+  padding: 1.25em;
+}
+
+.rightContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.rightContainer > div {
+  padding: 1.25em;
+}
+
+a.link {
+  color: white;
+  text-decoration: none;
+}
+
+.featuredProjectsContainer .titleContainer:before {
+  content: "";
+  display: block;
+  width: 18em;
+  height: 0.1em;
+  background: #191970;
+  left: 5em;
+  top: 50%;
+  position: absolute;
+}
+
+.featuredProjectsContainer .titleContainer:after {
+  content: "";
+  display: block;
+  width: 18em;
+  height: 0.1em;
+  background: #191970;
+  right: 5em;
+  top: 50%;
+  position: absolute;
+}
