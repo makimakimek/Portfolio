@@ -455,7 +455,7 @@ a.link {
   font-family: Impact, Haettenschweiler, sans-serif;
 }
 
-.githubImage {
+.githubImage, .linkedinImage {
   height: auto;
   width: 100%;
   max-width: 3em;

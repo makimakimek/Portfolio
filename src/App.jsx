@@ -29,6 +29,7 @@ import catAdoption2 from './assets/firstProjectScreenshot2.png'
 import etchASketch1 from './assets/thirdProjectScreenshot3.png'
 import etchASketch2 from './assets/thirdProjectScreenshot4.png'
 import etchASketch3 from './assets/thirdProjectScreenshot5.png'
+import linkedinIcon from './assets/linkedinicon.png'
 
 
 function App() {
@@ -352,6 +353,10 @@ function App() {
                 <div className = "githubAndLinkedinSection">
                     <a href = "https://github.com/makimakimek" target = "_blank" className = "link">
                         <img src = {githubIcon} className = "githubImage" alt = "github icon" />
+                    </a>
+
+                    <a href = "https://www.linkedin.com/in/melodi-keskin-059007211/" target = "_blank" className = "link">
+                        <img src = {linkedinIcon} className = "linkedinImage" alt = "linkedin icon" />
                     </a>
                 </div>
             </div>
