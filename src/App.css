@@ -389,3 +389,75 @@ a.link {
   top: 50%;
   position: absolute;
 }
+
+/*contact*/
+
+.contactSection {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactTitleSection {
+  margin-bottom: 1.5em;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.lineBeforeContact {
+  flex: 1 1;
+  height: 0.15em;
+  background: #191970;
+  margin-left: 8em;
+}
+
+.lineAfterContact {
+  flex: 1 1;
+  height: 0.15em;
+  background: #191970;
+  margin-right: 8em;
+}
+
+.contactTitle {
+  margin: 0 1em;
+  font-size: 2em;
+  font-weight: bold;
+  color: #034566;
+  font-family: Impact, Haettenschweiler, sans-serif;
+}
+
+.underContactSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.emailTitleSection {
+  font-size: 1.25em;
+  color: #034566;
+  font-family: Impact, Haettenschweiler, sans-serif;
+}
+
+.emailSection {
+  font-size: 1.1em;
+  color: #034566;
+  font-family: Impact, Haettenschweiler, sans-serif;
+}
+
+.orSection {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  font-size: 1.3em;
+  color: #034566;
+  font-family: Impact, Haettenschweiler, sans-serif;
+}
+
+.githubImage {
+  height: auto;
+  width: 100%;
+  max-width: 3em;
+  padding: 0.6em;
+}

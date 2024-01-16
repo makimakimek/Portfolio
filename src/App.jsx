@@ -324,30 +324,36 @@ function App() {
         </div>
 
         <div className = "contactSection">
-            <div className = "contactTitle">
-                Contact
+            <div className = "contactTitleSection">
+                <div className = "lineBeforeContact"></div>
+                <div className = "contactTitle">
+                    Contact
+                </div>
+                <div className = "lineAfterContact"></div>
             </div>
 
-            <div className = "emailTitleSection">
-                "Write me an e-mail at:"
-            </div>
+            <div className = "underContactSection">
+                <div className = "emailTitleSection">
+                    Write me an e-mail at:
+                </div>
 
-            <div className = "emailSection">
-                melodiezgi17@gmail.com
-            </div>
+                <div className = "emailSection">
+                    melodiezgi17@gmail.com
+                </div>
 
-            <div className = "orSection">
-                OR
-            </div>
+                <div className = "orSection">
+                    OR
+                </div>
 
-            <div className = "contactTitle">
-                Reach me through social media:
-            </div>
+                <div className = "emailTitleSection">
+                    Reach me through social media:
+                </div>
 
-            <div className = "githubAndLinkedinSection">
-                <a href = "https://github.com/makimakimek" target = "_blank" className = "link">
-                    <img src = {githubIcon} className = "githubImage" alt = "github icon" />
-                </a>
+                <div className = "githubAndLinkedinSection">
+                    <a href = "https://github.com/makimakimek" target = "_blank" className = "link">
+                        <img src = {githubIcon} className = "githubImage" alt = "github icon" />
+                    </a>
+                </div>
             </div>
         </div>
             
