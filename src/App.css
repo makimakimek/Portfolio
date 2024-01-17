@@ -424,11 +424,11 @@ a.link {
 @media screen and (max-width: 600px) {
   #root {
     background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   .firstViewContainer {
     height: 100vh;
-    font: inherit;
     margin: 0;
     padding: 0;
     border: 0;
@@ -538,7 +538,7 @@ a.link {
   /*featured projects*/
   .featuredProjectsContainer {
     width: 40vh;
-    height: 230vh;
+    height: 240vh;
   }
 
   .featuredProjectsTitle {
