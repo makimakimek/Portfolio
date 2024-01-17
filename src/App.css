@@ -488,6 +488,8 @@ a.link {
     flex-direction: column;
     align-items: center;
     color: #034566;
+    font-size: 0.5em;
+    padding: 0.1em;
   }
 
   .frontEndContainer, .otherCodingContainer, .miscContainer {
