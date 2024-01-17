@@ -421,5 +421,193 @@ a.link {
 /*//phone screens//*/
 
 @media screen and (max-width: 600px) {
-  
+  .firstViewContainer {
+    margin-top: 8em;
+    margin-bottom: 8em;
+  }
+
+  .nameContainer {
+    font-size: 1em;
+  }
+
+  .animationContainer {
+    font-size: 0.8em;
+    padding: 0.2em;
+  }
+
+  .animation {
+    font-size: 0.3em;
+  }
+
+  /*about*/
+  .aboutContainer {
+    margin-top: 1.6em;
+  }
+
+  .aboutTitleContainer {
+    margin-bottom: 0.5em;
+  }
+
+  .image1 {
+    max-width: 6.3em;
+    margin-top: 1.3em;
+  }
+
+  .aboutTitle {
+    margin: 0 0.3em;
+    font-size: 0.6em;
+  }
+
+  .underneathContainer .textContainer .paragraphContainer {
+    font-size: 0.4em;
+    max-width: 10.3em;
+  }
+
+  /*skills*/
+  .skillsContainer {
+    margin-top: 1.6em;
+    margin-bottom: 2.6em;
+  }
+
+  .skillsTitle {
+    margin: 0 0.3em;
+    font-size: 0.6em;
+  }
+
+  .skillsTitleContainer {
+    margin-bottom: 0.5em;
+  }
+
+  .iconContainer {
+    margin-top: 1.3em;
+  }
+
+  .frontEndContainer, .otherCodingContainer, .miscContainer {
+    height: 7.3em;
+    border-radius: 0.2em;
+    padding: 0.2em;
+  }
+
+  .iconContainer .titleContainer2 {
+    /*font-weight: ?? */
+    font-size: 0.5em;
+    padding: 0.1em;
+  }
+
+  .iconContainer > div > div > div > div {
+    padding: 0.2em;
+  }
+
+  .iconContainer > div > div > div > div > img {
+    max-width: 1em;
+    padding: 0.2em;
+  }
+
+  /*featured projects*/
+  .featuredProjectsTitle {
+    margin: 0 0.3em;
+    font-size: 0.6em;
+  }
+
+  .featuredProjectsTitleContainer {
+    margin-bottom: 0.5em;
+  }
+
+  .projectsContainer {
+    margin-top: 1.3em;
+  }
+
+  .projectUnderneathContainer {
+    border-radius: 0.2em;
+    padding: 0.2em;
+    margin: 0.2em;
+    gap: 0.4em;
+  }
+
+  .projectButtonContainer {
+    margin-bottom: 0.6em;
+  }
+
+  .projectButtonContainer > div {
+    padding: 0.1em;
+  }
+
+  .buttons {
+    margin: 0.06em;
+    border-radius: 0.5em;
+    width: 3.6em;
+    height: 1em;
+    font-size: 0.4em;
+  }
+
+  .projectParagraph {
+    font-size: 0.4em;
+    max-width: 14.6em;
+  }
+
+  .projectTitleContainer {
+    font-size: 0.5em;
+    margin-bottom: 0.16em;
+  }
+
+  .projectImage {
+    max-width: 8.3em;
+    padding: 0.5em;
+  }
+
+  .projectImagePhone {
+    max-height: 7.3em;
+    padding: 0.4em;
+  }
+
+  .rightContainer > div {
+    padding: 0.4em;
+  }
+
+  /*contact*/
+  .contactSection {
+    margin-top: 1.6em;
+  }
+
+  .contactTitleSection {
+    margin-bottom: 0.5em;
+  }
+
+  .lineBefore {
+    height: 0.05em;
+    margin-left: 2.6em;
+  }
+
+  .lineAfter {
+    height: 0.05em;
+    margin-right: 2.6em;
+  }
+
+  .contactTitle {
+    margin: 0 0.3em;
+    font-size: 0.6em;
+  }
+
+  .underContactSection {
+    gap: 0.3em;
+  }
+
+  .emailTitleSection {
+    font-size: 0.4em;
+  }
+
+  .emailSection {
+    font-size: 0.35em;
+  }
+
+  .orSection {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    font-size: 0.4em;
+  }
+
+  .githubImage, .linkedinImage {
+    max-width: 1em;
+    padding: 0.2em;
+  }
 }
