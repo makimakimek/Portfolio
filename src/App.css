@@ -1,5 +1,4 @@
 #root {
-  max-width: 1820px;
   margin: 0 auto;
   background-color: white;
 }
@@ -7,6 +6,7 @@
 .page {
   display: flex;
   flex-direction: column;
+  min-width: 100vw;
 }
 
 .firstViewContainer {
@@ -438,8 +438,8 @@ a.link {
     min-width: 100vw;
     align-items: center;
     background-color: white;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: normal;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    font-weight: 300;
   }
 
   .firstViewContainer {
