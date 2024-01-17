@@ -1,6 +1,7 @@
 #root {
   max-width: 1820px;
   margin: 0 auto;
+  background-color: white;
 }
 
 .firstViewContainer {
@@ -316,14 +317,14 @@
   justify-content: space-evenly;
 }
 
-.projectImage {
+.projectImage, .projectImage1 {
   height: auto;
   width: 100%;
   max-width: 25em;
   padding: 1.5em;
 }
 
-.projectImagePhone {
+.projectImagePhone, .projectImagePhone1 {
   height: 100%;
   width: auto;
   max-height: 22em;
@@ -426,26 +427,34 @@ a.link {
   }
 
   .firstViewContainer {
-    margin-top: 8em;
-    margin-bottom: 8em;
+    height: 100vh;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
   }
 
   .nameContainer {
-    font-size: 1em;
+    font-size: 2.5em;
   }
 
   .animationContainer {
-    font-size: 0.8em;
+    font-size: 1.5em;
     padding: 0.2em;
   }
 
   .animation {
-    font-size: 0.3em;
+    font-size: 1em;
   }
 
   /*about*/
   .aboutContainer {
-    margin-top: 1.6em;
+    height: 70vh;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
   }
 
   .aboutTitleContainer {
@@ -453,29 +462,40 @@ a.link {
   }
 
   .image1 {
-    max-width: 6.3em;
+    max-width: 10em;
     margin-top: 1.3em;
   }
 
   .aboutTitle {
     margin: 0 0.3em;
-    font-size: 0.6em;
+    font-size: 1.5em;
+  }
+
+  .underneathContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
   }
 
   .underneathContainer .textContainer .paragraphContainer {
-    font-size: 0.4em;
-    max-width: 10.3em;
+    font-size: 1em;
+    max-width: 35vh;
+    text-align: center;
   }
 
   /*skills*/
   .skillsContainer {
-    margin-top: 1.6em;
-    margin-bottom: 2.6em;
+    height: 175vh;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
   }
 
   .skillsTitle {
     margin: 0 0.3em;
-    font-size: 0.6em;
+    font-size: 1.5em;
   }
 
   .skillsTitleContainer {
@@ -488,37 +508,42 @@ a.link {
     flex-direction: column;
     align-items: center;
     color: #034566;
-    font-size: 0.5em;
+    font-size: 0.7em;
     padding: 0.1em;
-    gap: 1em;
+    gap: 5em;
   }
 
   .frontEndContainer, .otherCodingContainer, .miscContainer {
-    height: 10em;
-    width: auto;
+    height: 36em;
+    width: 35vh;
     border-radius: 0.2em;
     padding: 0.2em;
   }
 
   .iconContainer .titleContainer2 {
     /*font-weight: ?? */
-    font-size: 0.5em;
+    font-size: 2em;
     padding: 0.1em;
   }
 
   .iconContainer > div > div > div > div {
-    padding: 0.2em;
+    padding: 2em;
   }
 
   .iconContainer > div > div > div > div > img {
-    max-width: 1em;
-    padding: 0.2em;
+    max-width: 5em;
+    padding: 0.5em;
   }
 
   /*featured projects*/
+  .featuredProjectsContainer {
+    width: 40vh;
+    height: 170vh;
+  }
+
   .featuredProjectsTitle {
     margin: 0 0.3em;
-    font-size: 0.6em;
+    font-size: 1.5em;
   }
 
   .featuredProjectsTitleContainer {
@@ -547,29 +572,38 @@ a.link {
   .buttons {
     margin: 0.06em;
     border-radius: 0.5em;
-    width: 6em;
+    width: 10em;
     height: 3em;
     font-size: 0.4em;
   }
 
   .projectParagraph {
-    font-size: 0.4em;
+    font-size: 0.8em;
     max-width: 14.6em;
   }
 
   .projectTitleContainer {
-    font-size: 0.5em;
+    font-size: 1em;
+    font-weight: 550;
     margin-bottom: 0.16em;
   }
 
-  .projectImage {
-    max-width: 8.3em;
+  .projectImage1 {
+    max-width: 15em;
     padding: 0.5em;
   }
 
-  .projectImagePhone {
-    max-height: 7.3em;
+  .projectImage {
+    display: none;
+  }
+
+  .projectImagePhone1 {
+    max-height: 15em;
     padding: 0.4em;
+  }
+
+  .projectImagePhone {
+    display: none;
   }
 
   .rightContainer > div {
@@ -578,7 +612,11 @@ a.link {
 
   /*contact*/
   .contactSection {
-    margin-top: 1.6em;
+    height: 22vh;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
   }
 
   .contactTitleSection {
@@ -597,7 +635,7 @@ a.link {
 
   .contactTitle {
     margin: 0 0.3em;
-    font-size: 0.6em;
+    font-size: 1.5em;
   }
 
   .underContactSection {
@@ -605,17 +643,17 @@ a.link {
   }
 
   .emailTitleSection {
-    font-size: 0.4em;
+    font-size: 1em;
   }
 
   .emailSection {
-    font-size: 0.35em;
+    font-size: 0.8em;
   }
 
   .orSection {
     margin-top: 0.25em;
     margin-bottom: 0.25em;
-    font-size: 0.4em;
+    font-size: 0.8em;
   }
 
   .githubImage, .linkedinImage {

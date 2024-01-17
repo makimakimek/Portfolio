@@ -205,7 +205,7 @@ function App() {
             </div>
             <div className = "lineAfter"></div>
         </div>
-        
+
             <div className = "projectsContainer">
                 <div className = "projectUnderneathContainer">
                     <div className = "rightContainer">
@@ -224,7 +224,7 @@ function App() {
 
                         <div className = "projectImageContainer">
                             <div>
-                                <img src = {capstone1} className = "projectImagePhone" alt = "capstone project screenshot"/>
+                                <img src = {capstone1} className = "projectImagePhone1" alt = "capstone project screenshot"/>
                             </div>
 
                             <div>
@@ -273,7 +273,7 @@ function App() {
 
                         <div className = "projectImageContainer">
                             <div>
-                                <img src = {catAdoption1} className = "projectImage" alt = "cat adoption project screenshot"/>
+                                <img src = {catAdoption1} className = "projectImage1" alt = "cat adoption project screenshot"/>
                             </div>
 
                             <div>
@@ -312,7 +312,7 @@ function App() {
 
                         <div className = "projectImageContainer">
                             <div>
-                                <img src = {etchASketch1} className = "projectImage" alt = "etch a sketch project screenshot"/>
+                                <img src = {etchASketch1} className = "projectImage1" alt = "etch a sketch project screenshot"/>
                             </div>
 
                             <div>
