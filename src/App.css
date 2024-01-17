@@ -301,6 +301,7 @@
   width: 100%; 
   max-width: 44em;
   word-wrap: break-word;
+  font-weight: 300;
 }
 
 .leftContainer {
