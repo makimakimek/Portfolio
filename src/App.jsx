@@ -46,9 +46,14 @@ function App() {
       </div>
 
       <div className = "aboutContainer">
-          <div className = "titleContainer">
-              About Me
-          </div>
+        <div className = "aboutTitleContainer">
+            <div className = "lineBefore"></div>
+            <div className = "aboutTitle">
+                About Me
+            </div>
+            <div className = "lineAfter"></div>
+        </div>
+
           <div className = "underneathContainer">
               <div className = "imageContainer">
                 <img src={myImage} className = "image1" alt = "a gray image placeholder female"/>
@@ -62,9 +67,14 @@ function App() {
       </div>
 
       <div className = "skillsContainer">
-        <div className = "titleContainer">
-          Skills
+        <div className = "skillsTitleContainer">
+            <div className = "lineBefore"></div>
+            <div className = "skillsTitle">
+                Skills
+            </div>
+            <div className = "lineAfter"></div>
         </div>
+        
         <div className = "iconContainer">
           <div className = "generalFrontEndContainer">
             <div className = "titleContainer2">Front-end</div>
@@ -188,7 +198,14 @@ function App() {
       </div>
 
       <div className = "featuredProjectsContainer">
-            <div className = "titleContainer">Featured Projects</div>
+        <div className = "featuredProjectsTitleContainer">
+            <div className = "lineBefore"></div>
+            <div className = "featuredProjectsTitle">
+                Featured Projects
+            </div>
+            <div className = "lineAfter"></div>
+        </div>
+        
             <div className = "projectsContainer">
                 <div className = "projectUnderneathContainer">
                     <div className = "rightContainer">
@@ -326,11 +343,11 @@ function App() {
 
         <div className = "contactSection">
             <div className = "contactTitleSection">
-                <div className = "lineBeforeContact"></div>
+                <div className = "lineBefore"></div>
                 <div className = "contactTitle">
                     Contact
                 </div>
-                <div className = "lineAfterContact"></div>
+                <div className = "lineAfter"></div>
             </div>
 
             <div className = "underContactSection">

@@ -93,8 +93,16 @@
 /*about*/
 
 .aboutContainer {
-  margin-top: 15em;
-  margin-bottom: 15em;
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutTitleContainer {
+  margin-bottom: 1.5em;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 .underneathContainer {
@@ -119,35 +127,12 @@
   justify-content: center;
 }
 
-.aboutContainer .titleContainer {
+.aboutTitle {
+  margin: 0 1em;
   font-size: 2em;
   font-weight: bold;
-  text-align: center;
   color: #034566;
   font-family: Impact, Haettenschweiler, sans-serif;
-  position: relative;
-}
-
-.aboutContainer .titleContainer:before {
-  content: "";
-  display: block;
-  width: 20em;
-  height: 0.1em;
-  background: #191970;
-  left: 5em;
-  top: 50%;
-  position: absolute;
-}
-
-.aboutContainer .titleContainer:after {
-  content: "";
-  display: block;
-  width: 20em;
-  height: 0.1em;
-  background: #191970;
-  right: 5em;
-  top: 50%;
-  position: absolute;
 }
 
 .underneathContainer .textContainer .paragraphContainer {
@@ -162,17 +147,25 @@
 /*skills*/
 
 .skillsContainer {
-  margin-top: 15em;
-  margin-bottom: 15em;
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8em;
 }
 
-.skillsContainer .titleContainer {
-  text-align: center;
+.skillsTitle {
+  margin: 0 1em;
   font-size: 2em;
   font-weight: bold;
   color: #034566;
   font-family: Impact, Haettenschweiler, sans-serif;
-  position: relative;
+}
+
+.skillsTitleContainer {
+  margin-bottom: 1.5em;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 .iconContainer {
@@ -228,41 +221,26 @@
   padding: 0.6em;
 }
 
-.skillsContainer .titleContainer:before {
-  content: "";
-  display: block;
-  width: 21em;
-  height: 0.1em;
-  background: #191970;
-  left: 5em;
-  top: 50%;
-  position: absolute;
-}
-
-.skillsContainer .titleContainer:after {
-  content: "";
-  display: block;
-  width: 21em;
-  height: 0.1em;
-  background: #191970;
-  right: 5em;
-  top: 50%;
-  position: absolute;
-}
-
 /*/////////////////////////featured projects part/////////////////////////*/
 
 .featuredProjectsContainer {
-  
+  display: flex;
+  flex-direction: column;
 }
 
-.featuredProjectsContainer .titleContainer {
-  text-align: center;
+.featuredProjectsTitle {
+  margin: 0 1em;
   font-size: 2em;
   font-weight: bold;
   color: #034566;
   font-family: Impact, Haettenschweiler, sans-serif;
-  position: relative;
+}
+
+.featuredProjectsTitleContainer {
+  margin-bottom: 1.5em;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 .projectsContainer {
@@ -368,28 +346,6 @@ a.link {
   text-decoration: none;
 }
 
-.featuredProjectsContainer .titleContainer:before {
-  content: "";
-  display: block;
-  width: 18em;
-  height: 0.1em;
-  background: #191970;
-  left: 5em;
-  top: 50%;
-  position: absolute;
-}
-
-.featuredProjectsContainer .titleContainer:after {
-  content: "";
-  display: block;
-  width: 18em;
-  height: 0.1em;
-  background: #191970;
-  right: 5em;
-  top: 50%;
-  position: absolute;
-}
-
 /*contact*/
 
 .contactSection {
@@ -406,14 +362,14 @@ a.link {
   width: 100%;
 }
 
-.lineBeforeContact {
+.lineBefore {
   flex: 1 1;
   height: 0.15em;
   background: #191970;
   margin-left: 8em;
 }
 
-.lineAfterContact {
+.lineAfter {
   flex: 1 1;
   height: 0.15em;
   background: #191970;
@@ -460,4 +416,10 @@ a.link {
   width: 100%;
   max-width: 3em;
   padding: 0.6em;
+}
+
+/*//phone screens//*/
+
+@media screen and (max-width: 600px) {
+  
 }
