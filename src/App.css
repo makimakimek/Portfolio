@@ -428,9 +428,8 @@ a.link {
 
 @media screen and (max-width: 850px) {
   #root {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-decoration: none;
-  }
+    }
 
   .page {
     display: flex;
@@ -439,6 +438,8 @@ a.link {
     min-width: 100vw;
     align-items: center;
     background-color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: normal;
   }
 
   .firstViewContainer {
