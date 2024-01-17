@@ -524,7 +524,7 @@ a.link {
   }
 
   .frontEndContainer, .otherCodingContainer, .miscContainer {
-    height: 50vh;
+    height: auto;
     width: 60vw;
     border-radius: 0.2em;
     padding: 0.2em;
