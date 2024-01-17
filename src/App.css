@@ -501,7 +501,7 @@ a.link {
     margin: 0;
     padding: 0;
     border: 0;
-  }
+    }
 
   .skillsTitle {
     margin: 0 0.3em;
@@ -524,8 +524,8 @@ a.link {
   }
 
   .frontEndContainer, .otherCodingContainer, .miscContainer {
-    height: 48vh;
-    width: 60vh;
+    height: 50vh;
+    width: 60vw;
     border-radius: 0.2em;
     padding: 0.2em;
   }
