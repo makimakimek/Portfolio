@@ -471,8 +471,6 @@ a.link {
   .skillsContainer {
     margin-top: 1.6em;
     margin-bottom: 2.6em;
-    display: flex;
-    flex-direction: row;
   }
 
   .skillsTitle {
@@ -486,6 +484,8 @@ a.link {
 
   .iconContainer {
     margin-top: 1.3em;
+    display: flex;
+    flex-direction: column;
   }
 
   .frontEndContainer, .otherCodingContainer, .miscContainer {
