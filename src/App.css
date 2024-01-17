@@ -490,11 +490,11 @@ a.link {
     color: #034566;
     font-size: 0.5em;
     padding: 0.1em;
-    gap: 0.3em;
+    gap: 1em;
   }
 
   .frontEndContainer, .otherCodingContainer, .miscContainer {
-    height: 9em;
+    height: 10em;
     width: auto;
     border-radius: 0.2em;
     padding: 0.2em;
