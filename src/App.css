@@ -562,6 +562,7 @@ a.link {
 
   .projectsContainer {
     margin-top: 1.3em;
+    gap: 3vh;
   }
 
   .projectUnderneathContainer {
@@ -589,12 +590,12 @@ a.link {
   }
 
   .projectParagraph {
-    font-size: 2vh;
+    font-size: 1.8vh;
     max-width: 55vw;
   }
 
   .projectTitleContainer {
-    font-size: 1em;
+    font-size: 2vh;
     font-weight: 550;
     margin-bottom: 0.16em;
   }
