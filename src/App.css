@@ -471,6 +471,8 @@ a.link {
   .skillsContainer {
     margin-top: 1.6em;
     margin-bottom: 2.6em;
+    display: flex;
+    flex-direction: row;
   }
 
   .skillsTitle {
