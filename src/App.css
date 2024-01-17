@@ -438,7 +438,8 @@ a.link {
     min-width: 100vw;
     align-items: center;
     background-color: white;
-    font-family: Impact, Haettenschweiler, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: normal;
   }
 
   .firstViewContainer {
