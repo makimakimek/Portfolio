@@ -421,7 +421,7 @@ a.link {
 
 /*//phone screens//*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   #root {
     background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
