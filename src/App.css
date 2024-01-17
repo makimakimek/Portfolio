@@ -486,7 +486,7 @@ a.link {
 
   /*skills*/
   .skillsContainer {
-    height: 175vh;
+    height: 200vh;
     font: inherit;
     margin: 0;
     padding: 0;
@@ -538,7 +538,7 @@ a.link {
   /*featured projects*/
   .featuredProjectsContainer {
     width: 40vh;
-    height: 170vh;
+    height: 200vh;
   }
 
   .featuredProjectsTitle {
