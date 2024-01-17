@@ -428,7 +428,7 @@ a.link {
 
 @media screen and (max-width: 850px) {
   #root {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-decoration: none;
   }
 
