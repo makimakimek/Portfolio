@@ -4,6 +4,11 @@
   background-color: white;
 }
 
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
 .firstViewContainer {
   display: flex;
   flex-direction: column;
@@ -423,9 +428,18 @@ a.link {
 
 @media screen and (max-width: 850px) {
   #root {
-    background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
+    max-width: 1440px;
+  }
+
+  .page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+    background-color: white;
   }
 
   .firstViewContainer {
@@ -450,12 +464,9 @@ a.link {
 
   /*about*/
   .aboutContainer {
-    height: 70vh;
-    font: inherit;
-    margin: 0;
+    margin-bottom: 5vh;
     padding: 0;
     border: 0;
-
   }
 
   .aboutTitleContainer {
@@ -487,8 +498,6 @@ a.link {
 
   /*skills*/
   .skillsContainer {
-    height: 210vh;
-    font: inherit;
     margin: 0;
     padding: 0;
     border: 0;
@@ -538,8 +547,8 @@ a.link {
 
   /*featured projects*/
   .featuredProjectsContainer {
-    width: 40vh;
-    height: 235vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
   }
 
   .featuredProjectsTitle {
@@ -560,6 +569,7 @@ a.link {
     padding: 0.2em;
     margin: 0.2em;
     gap: 0.4em;
+    width: 60vw;
   }
 
   .projectButtonContainer {

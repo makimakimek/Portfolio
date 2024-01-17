@@ -36,6 +36,7 @@ function App() {
 
   return (
     <>
+    <div className = "page">
       <div className = "firstViewContainer">
           <div className = "nameContainer">
               Melodi Keskin
@@ -378,7 +379,7 @@ function App() {
                 </div>
             </div>
         </div>
-            
+    </div>
     </>
   )
 }
