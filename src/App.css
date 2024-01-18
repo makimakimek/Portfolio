@@ -465,8 +465,8 @@ a.link {
   }
 
   .image1 {
-    max-width: 10em;
-    margin-top: 1.3em;
+    max-width: 40vw;
+    margin-top: 2vh;
   }
 
   .aboutTitle {
@@ -483,7 +483,7 @@ a.link {
 
   .underneathContainer .textContainer .paragraphContainer {
     font-size: 2vh;
-    max-width: 60vw;
+    max-width: 70vw;
     text-align: center;
   }
 
@@ -681,6 +681,10 @@ a.link {
 
   .aboutTitle {
     font-size: 3vw;
+  }
+
+  .image1 {
+    max-width: 40vh;
   }
 
   .underneathContainer .textContainer .paragraphContainer {

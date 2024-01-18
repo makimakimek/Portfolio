@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import myImage from './assets/imageOption1.JPG'
+import myImage from './assets/imageOption1.png'
 import htmlIcon from './assets/htmlicon.png'
 import cssIcon from './assets/cssicon.png'
 import jsIcon from './assets/javascripticon.png'
