@@ -253,7 +253,7 @@ function App() {
                             </a>
                         </div>
                         <div className = "livePreviewContainer">
-                            <a href="" target="_blank" className="link">
+                            <a href="https://drive.google.com/file/d/1s3wRORKIWn5ID1-YOpBUF5m7QKy5i326/view?usp=sharing" target="_blank" className="link">
                                 <button className="buttons">Video</button>
                             </a>
                         </div>
