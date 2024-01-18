@@ -729,4 +729,12 @@ a.link {
   .orSection {
     font-size: 1.8vw;
   }
+
+  .lineBefore {
+    height: 0.05vw;
+  }
+
+  .lineAfter {
+    height: 0.05vw;
+  }
 }
