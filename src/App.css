@@ -430,7 +430,13 @@ a.link {
 @media screen and (max-width: 850px) {
   #root {
     text-decoration: none;
-    }
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
   .page {
     display: flex;
