@@ -145,8 +145,8 @@
   font-size: 2.5vh;
   color: #034566;
   font-family: Impact, Haettenschweiler, sans-serif;
-  width: 100%; 
-  max-width: 31em;
+  /*width: 100%; 
+  max-width: 31em;*/
   word-wrap: break-word;
 }
 
@@ -220,6 +220,7 @@
   text-align: center;
   padding: 0.6em;
   font-size: 1vh;
+  font-size: 1vw;
 }
 
 .iconContainer > div > div > div > div > img {
@@ -541,6 +542,8 @@ a.link {
 
   .iconContainer > div > div > div > div {
     margin: 1vh 5vw;
+    font-size: 1.5vh;
+    font-size: 1.5vw;
   }
 
   .iconContainer > div > div > div > div > img {
