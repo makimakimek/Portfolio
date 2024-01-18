@@ -207,7 +207,7 @@
 .iconContainer .titleContainer2 {
   color: #034566;
   font-family: Impact, Haettenschweiler, sans-serif;
-  
+  font-weight: 300;
   font-size: 1.5em;
   padding: 0.3em;
 }
@@ -440,7 +440,7 @@ a.link {
     align-items: center;
     background-color: white;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: normal;
+    font-weight: normal !important;
   }
 
   .firstViewContainer {
