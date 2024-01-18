@@ -207,7 +207,7 @@
 .iconContainer .titleContainer2 {
   color: #034566;
   font-family: Impact, Haettenschweiler, sans-serif;
-  font-weight: 300;
+  
   font-size: 1.5em;
   padding: 0.3em;
 }
@@ -591,7 +591,6 @@ a.link {
   }
 
   .projectParagraph {
-    -webkit-font-smoothing: antialiased;
     font-size: 1.8vh;
     max-width: 55vw;
   }
