@@ -219,6 +219,7 @@
   justify-content: center;
   text-align: center;
   padding: 0.6em;
+  font-size: 1vh;
 }
 
 .iconContainer > div > div > div > div > img {
