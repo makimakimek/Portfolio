@@ -285,12 +285,12 @@ function App() {
 
                     <div className = "projectButtonContainer">
                         <div className = "githubButtonContainer">
-                            <a href="https://github.com/makimakimek/landing-page2" target="_blank" className="link">
+                            <a href = "https://github.com/makimakimek/catAdoption" target = "_blank" className = "link">
                                 <button className="buttons">Github</button>
                             </a>
                         </div>
                         <div className = "livePreviewContainer">
-                            <a href="https://makimakimek.github.io/landing-page2/" target="_blank" className="link">
+                            <a href = "https://adoptingcats.netlify.app/" target = "_blank" className = "link">
                                 <button className="buttons">Live Preview</button>
                             </a>
                         </div>
@@ -357,7 +357,7 @@ function App() {
                 </div>
 
                 <div className = "emailSection">
-                    melodiezgi17@gmail.com
+                    melodikeskin98@gmail.com
                 </div>
 
                 <div className = "orSection">
@@ -376,6 +376,10 @@ function App() {
                     <a href = "https://www.linkedin.com/in/melodi-keskin-059007211/" target = "_blank" className = "link">
                         <img src = {linkedinIcon} className = "linkedinImage" alt = "linkedin icon" />
                     </a>
+                </div>
+
+                <div className = "copyright">
+                    Designed and developed by Melodi Keskin © 2024
                 </div>
             </div>
         </div>

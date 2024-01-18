@@ -364,16 +364,16 @@ a.link {
 
 .lineBefore {
   flex: 1 1;
-  height: 0.15em;
+  height: 0.15vh;
   background: #191970;
-  margin-left: 8em;
+  margin-left: 8vw;
 }
 
 .lineAfter {
   flex: 1 1;
-  height: 0.15em;
+  height: 0.15vh;
   background: #191970;
-  margin-right: 8em;
+  margin-right: 8vw;
 }
 
 .contactTitle {
@@ -412,6 +412,10 @@ a.link {
   width: 100%;
   max-width: 3em;
   padding: 0.6em;
+}
+
+.copyright {
+  font-size: 1vh;
 }
 
 /*//phone screens//*/
@@ -744,5 +748,9 @@ a.link {
 
   .lineAfter {
     height: 0.05vw;
+  }
+
+  .copyright {
+    font-size: 1vw;
   }
 }
