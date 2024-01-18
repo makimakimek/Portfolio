@@ -415,7 +415,8 @@ a.link {
 }
 
 .copyright {
-  font-size: 1vh;
+  font-size: 1.2vh;
+  margin-bottom: 2vh;
 }
 
 /*//phone screens//*/
@@ -665,6 +666,11 @@ a.link {
   .githubImage, .linkedinImage {
     max-width: 5vw;
     padding: 1vw;
+  }
+
+  .copyright {
+    font-size: 1vh;
+    margin-bottom: 0;
   }
 }
 
