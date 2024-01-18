@@ -427,7 +427,6 @@ a.link {
     min-width: 100vw;
     align-items: center;
     background-color: white;
-    font-weight: normal !important;
   }
 
   .firstViewContainer {
@@ -438,16 +437,16 @@ a.link {
   }
 
   .nameContainer {
-    font-size: 2.5em;
+    font-size: 5vh;
   }
 
   .animationContainer {
-    font-size: 1.5em;
+    font-size: 4vh;
     padding: 0.2em;
   }
 
   .animation {
-    font-size: 1em;
+    font-size: 3.5vh;
   }
 
   /*about*/
@@ -468,7 +467,7 @@ a.link {
 
   .aboutTitle {
     margin: 0 0.3em;
-    font-size: 3vw;
+    font-size: 3vh;
   }
 
   .underneathContainer {
@@ -482,7 +481,6 @@ a.link {
     font-size: 2vh;
     max-width: 60vw;
     text-align: center;
-    font-weight: normal !important;
   }
 
   /*skills*/
@@ -490,11 +488,11 @@ a.link {
     margin: 0;
     padding: 0;
     border: 0;
-    }
+  }
 
   .skillsTitle {
     margin: 0 0.3em;
-    font-size: 3vw;
+    font-size: 3vh;
   }
 
   .skillsTitleContainer {
@@ -507,28 +505,27 @@ a.link {
     flex-direction: column;
     align-items: center;
     color: #034566;
-    font-size: 1.5vw;
+    font-size: 1.5vh;
     padding: 0.1em;
     gap: 3vh;
   }
 
   .frontEndContainer, .otherCodingContainer, .miscContainer {
     height: auto;
-    width: 60vw;
+    width: 80vw;
     border-radius: 0.2em;
     padding: 0.2em;
   }
 
   .iconContainer .titleContainer2 {
     /*font-weight: ?? */
-    font-size: 3vw;
+    font-size: 2.5vh;
     padding: 0.1em;
   }
 
   .iconContainer > div > div > div > div {
     margin: 1vh 5vw;
     font-size: 1.5vh;
-    font-size: 1.5vw;
   }
 
   .iconContainer > div > div > div > div > img {
@@ -544,7 +541,7 @@ a.link {
 
   .featuredProjectsTitle {
     margin: 0 0.3em;
-    font-size: 3vw;
+    font-size: 3vh;
   }
 
   .featuredProjectsTitleContainer {
@@ -577,13 +574,12 @@ a.link {
     border-radius: 0.5em;
     width: 10em;
     height: 3em;
-    font-size: 0.4em;
+    font-size: 1vh;
   }
 
   .projectParagraph {
-    font-size: 2.5vw;
+    font-size: 1.5vh;
     max-width: 55vw;
-    font-weight: normal !important;
   }
 
   .projectTitleContainer {
@@ -616,8 +612,6 @@ a.link {
 
   /*contact*/
   .contactSection {
-    height: 22vh;
-    font: inherit;
     margin: 0;
     padding: 0;
     border: 0;
@@ -628,18 +622,18 @@ a.link {
   }
 
   .lineBefore {
-    height: 0.05em;
-    margin-left: 2.6em;
+    height: 0.05vh;
+    margin-left: 3vw;
   }
 
   .lineAfter {
-    height: 0.05em;
-    margin-right: 2.6em;
+    height: 0.05vh;
+    margin-right: 3vw;
   }
 
   .contactTitle {
     margin: 0 0.3em;
-    font-size: 3vw;
+    font-size: 3vh;
   }
 
   .underContactSection {
@@ -647,21 +641,92 @@ a.link {
   }
 
   .emailTitleSection {
-    font-size: 1em;
+    font-size: 2.5vh;
   }
 
   .emailSection {
-    font-size: 0.8em;
+    font-size: 1.8vh;
   }
 
   .orSection {
     margin-top: 0.25em;
     margin-bottom: 0.25em;
-    font-size: 0.8em;
+    font-size: 1.8vh;
   }
 
   .githubImage, .linkedinImage {
-    max-width: 1em;
-    padding: 0.2em;
+    max-width: 5vw;
+    padding: 1vw;
+  }
+}
+
+/*horizontal phone screens*/
+@media screen and (max-width: 850px) and (orientation: landscape) {
+  .nameContainer {
+    font-size: 5vw;
+  }
+
+  .animationContainer {
+    font-size: 4vw;
+  }
+
+  .animation {
+    font-size: 3.5vw;
+  }
+
+  .aboutTitle {
+    font-size: 3vw;
+  }
+
+  .underneathContainer .textContainer .paragraphContainer {
+    font-size: 2vw;
+  }
+
+  .skillsTitle {
+    font-size: 3vw;
+  }
+
+  .iconContainer {
+    font-size: 1.5vw;
+  }
+
+  .iconContainer .titleContainer2 {
+    font-size: 2.5vw;
+  }
+
+  .iconContainer > div > div > div > div {
+    font-size: 1.5vw;
+  }
+
+  .featuredProjectsTitle {
+    font-size: 3vw;
+  }
+
+  .buttons {
+    font-size: 1vw;
+  }
+
+  .projectParagraph {
+    font-size: 1.5vw;
+  }
+
+  .projectTitleContainer {
+    font-size: 2vw;
+  }
+
+  .contactTitle {
+    font-size: 3vw;
+  }
+
+  .emailTitleSection {
+    font-size: 2.5vw;
+  }
+
+  .emailSection {
+    font-size: 1.8vw;
+  }
+
+  .orSection {
+    font-size: 1.8vw;
   }
 }
