@@ -14,8 +14,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 25em;
-  margin-bottom: 25em;
+  margin-top: 36vh;
+  margin-bottom: 36vh;
 }
 
 .nameContainer {
@@ -179,7 +179,8 @@
   display: flex;
   flex-direction: column;
   border: solid 1px #034566;
-  background-color: #f2fbff;
+  /*background-color: #f2fbff;*/
+  background-color: #dff5ff;
   width: auto;
   height: 22em;
   border-radius: 0.6em;
@@ -253,7 +254,8 @@
 
 .projectUnderneathContainer {
   border: solid 1px #034566;
-  background-color: #f2fbff;
+  /*background-color: #f2fbff;*/
+  background-color: #dff5ff;
   border-radius: 0.6em;
   padding: 0.6em;
   margin: 0.6em;
@@ -426,11 +428,12 @@ a.link {
     min-height: 100vh;
     min-width: 100vw;
     align-items: center;
-    background-color: white;
+    background-color: whitesmoke;
   }
 
   .firstViewContainer {
     height: 100vh;
+    width: 100vw;
     margin: 0;
     padding: 0;
     border: 0;
@@ -451,6 +454,7 @@ a.link {
 
   /*about*/
   .aboutContainer {
+    margin-top: 2vh;
     margin-bottom: 5vh;
     padding: 0;
     border: 0;
@@ -612,7 +616,8 @@ a.link {
 
   /*contact*/
   .contactSection {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 3vh;
     padding: 0;
     border: 0;
   }
