@@ -142,7 +142,7 @@
 }
 
 .underneathContainer .textContainer .paragraphContainer {
-  font-size: 1.25em;
+  font-size: 2.5vh;
   color: #034566;
   font-family: Impact, Haettenschweiler, sans-serif;
   width: 100%; 
@@ -493,8 +493,8 @@ a.link {
   }
 
   .underneathContainer .textContainer .paragraphContainer {
-    font-size: 1em;
-    max-width: 35vh;
+    font-size: 2vh;
+    max-width: 60vw;
     text-align: center;
     font-weight: normal !important;
   }
