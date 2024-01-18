@@ -595,6 +595,7 @@ a.link {
   .projectParagraph {
     font-size: 2.5vw;
     max-width: 55vw;
+    font-weight: normal !important;
   }
 
   .projectTitleContainer {
