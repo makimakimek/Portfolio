@@ -237,10 +237,6 @@ function App() {
                             </div>
 
                             <div>
-                                <img src = {capstone4} className = "projectImagePhone" alt = "capstone project screenshot"/>
-                            </div>
-
-                            <div>
                                 <img  src = {capstone5} className = "projectImagePhone" alt = "capstone project screenshot"/>
                             </div>
                         </div>

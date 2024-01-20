@@ -313,20 +313,19 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  gap: 1.5vw;
 }
 
 .projectImage, .projectImage1 {
   height: auto;
   width: 100%;
-  max-width: 25em;
-  padding: 1.5em;
+  max-width: 30vw;
 }
 
 .projectImagePhone, .projectImagePhone1 {
   height: 100%;
   width: auto;
-  max-height: 22em;
-  padding: 1.25em;
+  max-height: 35vh;
 }
 
 .rightContainer {
@@ -336,7 +335,7 @@
 }
 
 .rightContainer > div {
-  padding: 1.25em;
+  padding: 2vh;
 }
 
 a.link {
