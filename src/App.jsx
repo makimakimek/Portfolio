@@ -315,10 +315,6 @@ function App() {
                             <div>
                                 <img src = {etchASketch2} className = "projectImage" alt = "etch a sketch project screenshot"/>
                             </div>
-
-                            <div>
-                                <img  src = {etchASketch3} className = "projectImage" alt = "etch a sketch project screenshot"/>
-                            </div>
                         </div>
                     </div>
 
