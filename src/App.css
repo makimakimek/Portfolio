@@ -228,7 +228,7 @@
 }
 
 .featuredProjectsTitle {
-  margin: 0 1em;
+  margin: 0 2.5vh;
   font-size: 3.5vh;
   font-weight: bold;
   color: #034566;
@@ -268,7 +268,7 @@
   display: flex;
   /*align-items: center;*/
   justify-content: flex-end;
-  margin-bottom: 2em;
+  margin-bottom: 2.5vh;
   margin-right: 1vw;
 }
 
@@ -281,10 +281,10 @@
   color: white;
   background-color: #219EBC;
   border-radius: 1.5em;
-  width: 11em;
-  height: 3em;
+  width: 12vw;
+  height: 6vh;
   border: 1px solid #219EBC;
-  font-size: 1.25em;
+  font-size: 2vh;
   opacity: 0.7;
 }
 
@@ -346,14 +346,14 @@ a.link {
 /*contact*/
 
 .contactSection {
-  margin-top: 5em;
+  margin-top: 6vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .contactTitleSection {
-  margin-bottom: 1.5em;
+  margin-bottom: 2.5vh;
   display: flex;
   align-items: center;
   width: 100%;
@@ -374,7 +374,7 @@ a.link {
 }
 
 .contactTitle {
-  margin: 0 1em;
+  margin: 0 2vh;
   font-size: 3.5vh;
   font-weight: bold;
   color: #034566;
@@ -384,31 +384,31 @@ a.link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
+  gap: 1.5vh;
 }
 
 .emailTitleSection {
-  font-size: 1.25em;
+  font-size: 2.5vh;
   color: #034566;
 }
 
 .emailSection {
-  font-size: 1.1em;
+  font-size: 1.9vh;
   color: #034566;
 }
 
 .orSection {
-  margin-top: 0.8em;
-  margin-bottom: 0.8em;
-  font-size: 1.3em;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-size: 1.9vh;
   color: #034566;
 }
 
 .githubImage, .linkedinImage {
   height: auto;
   width: 100%;
-  max-width: 3em;
-  padding: 0.6em;
+  max-width: 2.5vw;
+  padding: 1.2vh;
 }
 
 .copyright {
