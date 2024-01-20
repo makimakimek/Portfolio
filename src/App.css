@@ -1,12 +1,12 @@
 #root {
   margin: 0 auto;
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 .page {
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
+  min-width: 99vw;
 }
 
 .firstViewContainer {
@@ -14,23 +14,22 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 36vh;
-  margin-bottom: 36vh;
+  height: 100vh;
 }
 
 .nameContainer {
-  font-size: 3em;
+  font-size: 5vh;
   color: #034566;
 }
 
 .animationContainer {
-  font-size: 2.5em;
+  font-size: 4vh;
   color: #034566;
-  padding: 0.6em;
+  padding: 2vh;
 }
 
 .animation {
-  font-size: 1em;
+  font-size: 4vh;
   color: #219EBC;
 }
 
@@ -96,16 +95,15 @@
 /*about*/
 
 .aboutContainer {
-  margin-top: 5em;
+  margin-top: 10vh;
   display: flex;
   flex-direction: column;
 }
 
 .aboutTitleContainer {
-  margin-bottom: 1.5em;
+  margin-bottom: 3vh;
   display: flex;
   align-items: center;
-  width: 100%;
 }
 
 .underneathContainer {
@@ -119,8 +117,8 @@
   justify-content: center;
   height: auto;
   width: 100%;
-  max-width: 19em;
-  margin-top: 4em;
+  max-width: 20vw;
+  margin-top: 4vh;
 }
 
 .underneathContainer .textContainer {
@@ -131,8 +129,8 @@
 }
 
 .aboutTitle {
-  margin: 0 1em;
-  font-size: 2em;
+  margin: 0 3vh;
+  font-size: 3vh;
   font-weight: bold;
   color: #034566;
 }
@@ -141,35 +139,33 @@
   font-size: 2.5vh;
   color: #034566;
   width: 100%; 
-  max-width: 31em;
+  max-width: 45vw;
   word-wrap: break-word;
 }
 
 /*skills*/
 
 .skillsContainer {
-  margin-top: 5em;
+  margin-top: 8vh;
   display: flex;
   flex-direction: column;
-  margin-bottom: 8em;
+  margin-bottom: 12vh;
 }
 
 .skillsTitle {
-  margin: 0 1em;
-  font-size: 2em;
+  margin: 0 3vh;
+  font-size: 3vh;
   font-weight: bold;
   color: #034566;
 }
 
 .skillsTitleContainer {
-  margin-bottom: 1.5em;
   display: flex;
   align-items: center;
-  width: 100%;
 }
 
 .iconContainer {
-  margin-top: 4em;
+  margin-top: 5vh;
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
@@ -182,7 +178,7 @@
   /*background-color: #f2fbff;*/
   background-color: #dff5ff;
   width: auto;
-  height: 22em;
+  height: 41vh;
   border-radius: 0.6em;
   padding: 0.6em;
 }
@@ -202,8 +198,8 @@
 .iconContainer .titleContainer2 {
   color: #034566;
   font-weight: 300;
-  font-size: 1.5em;
-  padding: 0.3em;
+  font-size: 2.5vh;
+  padding: 3vh;
 }
 
 .iconContainer > div > div > div > div {
@@ -220,8 +216,8 @@
 .iconContainer > div > div > div > div > img {
   height: auto;
   width: 100%;
-  max-width: 3em;
-  padding: 0.6em;
+  max-width: 5vh;
+  padding: 1.5vh;
 }
 
 /*/////////////////////////featured projects part/////////////////////////*/
@@ -242,14 +238,14 @@
   margin-bottom: 1.5em;
   display: flex;
   align-items: center;
-  width: 100%;
 }
 
 .projectsContainer {
   margin-top: 4em;
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
+  align-items: center;
+  gap: 3vh;
 }
 
 .projectUnderneathContainer {
@@ -263,6 +259,7 @@
   flex-direction: column;
   /*align-items: center;*/
   /*justify-content: space-between;*/
+  width: 80vw;
   box-sizing: border-box;
   gap: 1.2em;
 }
@@ -306,7 +303,8 @@
 }
 
 .projectTitleContainer {
-  font-size: 1.5em;
+  font-size: 2.5vh;
+  font-weight: 550;
   color: #034566;
   margin-bottom: 0.5em;
 }
