@@ -18,18 +18,18 @@
 }
 
 .nameContainer {
-  font-size: 5vh;
+  font-size: 50px;
   color: #034566;
 }
 
 .animationContainer {
-  font-size: 4vh;
+  font-size: 40px;
   color: #034566;
   padding: 2vh;
 }
 
 .animation {
-  font-size: 4vh;
+  font-size: 40px;
   color: #219EBC;
 }
 
@@ -130,13 +130,13 @@
 
 .aboutTitle {
   margin: 0 3vh;
-  font-size: 3vh;
+  font-size: 36px;
   font-weight: bold;
   color: #034566;
 }
 
 .underneathContainer .textContainer .paragraphContainer {
-  font-size: 2.5vh;
+  font-size: 24px;
   color: #034566;
   width: 100%; 
   max-width: 45vw;
@@ -154,7 +154,7 @@
 
 .skillsTitle {
   margin: 0 3vh;
-  font-size: 3.5vh;
+  font-size: 36px;
   font-weight: bold;
   color: #034566;
 }
@@ -178,7 +178,7 @@
   /*background-color: #f2fbff;*/
   background-color: #dff5ff;
   width: auto;
-  height: 41vh;
+  height: 42vh;
   border-radius: 0.6em;
   padding: 0.6em;
 }
@@ -198,7 +198,7 @@
 .iconContainer .titleContainer2 {
   color: #034566;
   font-weight: 300;
-  font-size: 2.5vh;
+  font-size: 25px;
   padding: 3vh;
 }
 
@@ -209,8 +209,7 @@
   justify-content: center;
   text-align: center;
   padding: 0.6em;
-  font-size: 1vh;
-  font-size: 1vw;
+  font-size: 2vh;
 }
 
 .iconContainer > div > div > div > div > img {
@@ -229,7 +228,7 @@
 
 .featuredProjectsTitle {
   margin: 0 2.5vh;
-  font-size: 3.5vh;
+  font-size: 36px;
   font-weight: bold;
   color: #034566;
 }
@@ -281,15 +280,15 @@
   color: white;
   background-color: #219EBC;
   border-radius: 1.5em;
-  width: 12vw;
-  height: 6vh;
+  width: 200px;
+  height: 60px;
   border: 1px solid #219EBC;
-  font-size: 2vh;
+  font-size: 20px;
   opacity: 0.7;
 }
 
 .projectParagraph {
-  font-size: 2vh;
+  font-size: 20px;
   color: #034566;
   width: 100%; 
   max-width: 50vw;
@@ -303,7 +302,7 @@
 }
 
 .projectTitleContainer {
-  font-size: 2.5vh;
+  font-size: 25px;
   font-weight: 550;
   color: #034566;
   margin-bottom: 0.5em;
@@ -323,9 +322,9 @@
 }
 
 .projectImagePhone, .projectImagePhone1 {
-  height: 100%;
-  width: auto;
-  max-height: 35vh;
+  width: 100%;
+  height: auto;
+  max-width: 20vw;
 }
 
 .rightContainer {
@@ -375,7 +374,7 @@ a.link {
 
 .contactTitle {
   margin: 0 2vh;
-  font-size: 3.5vh;
+  font-size: 36px;
   font-weight: bold;
   color: #034566;
 }
@@ -388,19 +387,19 @@ a.link {
 }
 
 .emailTitleSection {
-  font-size: 2.5vh;
+  font-size: 24px;
   color: #034566;
 }
 
 .emailSection {
-  font-size: 1.9vh;
+  font-size: 19px;
   color: #034566;
 }
 
 .orSection {
   margin-top: 1vh;
   margin-bottom: 1vh;
-  font-size: 1.9vh;
+  font-size: 19px;
   color: #034566;
 }
 
@@ -412,7 +411,7 @@ a.link {
 }
 
 .copyright {
-  font-size: 1.2vh;
+  font-size: 11px;
   margin-bottom: 2vh;
 }
 

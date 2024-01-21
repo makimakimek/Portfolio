@@ -61,7 +61,7 @@ function App() {
               </div>
               <div className = "textContainer">                    
                 <div className = "paragraphContainer">
-                  <div>I am currently a Master’s student looking to improve my software development knowledge. I am interested in Front-end Web Development and iOS Development.</div>
+                  <div>I am currently a Master’s student in computer science, looking to improve my software development knowledge. I am interested in Front-end Web Development and iOS Development.</div>
                 </div>
               </div>
           </div>
@@ -215,10 +215,14 @@ function App() {
                                 <div>Skinmate iOS Application</div>
                             </div>
                             <div className = "projectParagraphContainer">
-                                <div className = "projectParagraph">Created an iOS application with a group for my capstone project where the user takes a picture of their face, 
-                                    and then the application analyzes their face to figure out what type of acne the user has and what skin type the user has to then suggest 
-                                    a morning and night skincare routine with specific products according to the user’s face. The application also had a page to show the last 
-                                    2 pictures of the user for comparison where it showed which acne had gone away, and which acne was still there.
+                                <div className = "projectParagraph">This iOS application, developed as our capstone project by a team of four, allows users 
+                                                                    to seamlessly manage their skincare routine. Upon creating an account, users can capture 
+                                                                    a picture of their face within the application. The app then analyzes the facial image to 
+                                                                    identify the user's skin type and what kind of acne they have. Based on this analysis, personalized 
+                                                                    morning and night skincare routines are suggested, complete with specific product recommendations 
+                                                                    tailored to the user's unique needs. Furthermore, the application features a page showcasing 
+                                                                    the user's last two pictures for easy visual comparison. This section highlights the progress by 
+                                                                    indicating which acne has diminished and which areas may still require attention.
                                 </div>
                             </div>
                         </div>
@@ -262,8 +266,11 @@ function App() {
                                 <div>Cat Adoption Website</div>
                             </div>
                             <div className = "projectParagraphContainer">
-                                <div className = "projectParagraph">This is a website for adopting cats. It shows some cats that are up for adoption and states their names and a little fact about them. 
-                                    I also added an "About Us" page where there is a paragraph about the company. This website was done with flexbox.
+                                <div className = "projectParagraph">This website serves as a platform for cat adoption, showcasing a variety of cats available 
+                                                                    for adoption along with their names and brief descriptions. Additionally, I have added an 
+                                                                    "About Us" page that provides visitors with a paragraph detailing information about the company 
+                                                                    behind the website. I created this website's layout and design using flexbox, utilizing HTML and 
+                                                                    CSS. The development was done through React and Vite.
                                 </div>
                             </div>
                         </div>
@@ -299,10 +306,13 @@ function App() {
                                 <div>Etch-A-Sketch</div>
                             </div>
                             <div className = "projectParagraphContainer">
-                                <div className = "projectParagraph">A website where the user can sketch with their mouse by going over the squares. The user can pick whichever color they want 
-                                    and there is also an option to have a random color every time they go over a square with their mouse. The user can also change the size of the grid, they 
-                                    can pick any number between 0 - 100. The user can also click on the "Shading Effect" button to have shades while going over an already filled square. The 
-                                    user can also clear the canvas by clicking on the "Clear" button. This project was done with flexbox, most of the features were done in javascript using DOM.
+                                <div className = "projectParagraph">This website offers an interactive sketching experience where users can create drawings using 
+                                                                    their mouse as they navigate over a grid of squares. Users have the option to choose their preferred 
+                                                                    colors, and there is an option for a random color each time they pass over a square. The grid size is 
+                                                                    customizable, allowing users to select any number between 0 and 100. Users can also enable a "Shading Effect", 
+                                                                    creating shades as they move over pre-filled squares. The canvas can be easily cleared with the "Clear" button. 
+                                                                    I created this website's layout and design using flexbox, utilizing HTML, CSS, and JS. I used DOM to implement 
+                                                                    most features.
                                 </div>
                             </div>
                         </div>
