@@ -24,6 +24,8 @@ import capstone2 from './assets/capstoneScreenshot2.PNG'
 import capstone3 from './assets/capstoneScreenshot3.PNG'
 import capstone4 from './assets/capstoneScreenshot4.PNG'
 import capstone5 from './assets/capstoneScreenshot5.PNG'
+import innopromoo1 from './assets/innopromoo1.png'
+import innopromoo2 from './assets/innopromoo2.png'
 import catAdoption1 from './assets/firstProjectScreenshot1.png'
 import catAdoption2 from './assets/firstProjectScreenshot2.png'
 import etchASketch1 from './assets/thirdProjectScreenshot3.png'
@@ -31,9 +33,7 @@ import etchASketch2 from './assets/thirdProjectScreenshot4.png'
 import etchASketch3 from './assets/thirdProjectScreenshot5.png'
 import linkedinIcon from './assets/linkedinicon.png'
 
-
 function App() {
-
   return (
     <>
     <div className = "page">
@@ -255,6 +255,50 @@ function App() {
                         <div className = "livePreviewContainer">
                             <a href="https://drive.google.com/file/d/1s3wRORKIWn5ID1-YOpBUF5m7QKy5i326/view?usp=sharing" target="_blank" className="link">
                                 <button className="buttons">Video</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className = "projectUnderneathContainer">
+                    <div className = "rightContainer">
+                        <div className = "leftContainer">
+                            <div className = "projectTitleContainer">
+                                <div>InnoPromoo</div>
+                            </div>
+                            <div className = "projectParagraphContainer">
+                                <div className = "projectParagraph">I independently designed and developed a website for InnoPromoo, a real company, 
+                                                                    handling all aspects from gathering client requirements to deployment. This website 
+                                                                    allows them to showcase their various products to a wider audience. Built with React.js 
+                                                                    and CSS, the website is fully functional and responsive, ensuring a seamless viewing 
+                                                                    experience on both desktop and mobile devices, regardless of screen orientation.  
+                                                                    Additionally, I implemented a language toggle for English and Turkish translations, 
+                                                                    considering the company's Turkish origin. To make the website accessible to the public, 
+                                                                    the client bought a domain where I deployed the code, integrating it into the domain's 
+                                                                    public HTML.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className = "projectImageContainer">
+                            <div>
+                                <img src = {innopromoo1} className = "projectImage1" alt = "innopromoo website screenshot"/>
+                            </div>
+
+                            <div>
+                                <img src = {innopromoo2} className = "projectImage" alt = "innopromoo website screenshot"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className = "projectButtonContainer">
+                        <div className = "githubButtonContainer">
+                            <a href = "https://github.com/makimakimek/inno" target = "_blank" className = "link">
+                                <button className="buttons">Github</button>
+                            </a>
+                        </div>
+                        <div className = "livePreviewContainer">
+                            <a href = "https://innopromoo.com/" target = "_blank" className = "link">
+                                <button className="buttons">Live Preview</button>
                             </a>
                         </div>
                     </div>
